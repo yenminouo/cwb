@@ -26,3 +26,4 @@ nov = get_weather('201711.csv', '201711')
 boxplot(nov[,c(3,4,5)],ylab="氣溫" ,xlab="201711", las=1)
 plot(jul$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期" ,
      ylab="大氣壓",,main="2017/07", axes=TRUE)
+
