@@ -20,7 +20,6 @@ oct = getweather('201710.csv', '201710')
 nov = getweather('201711.csv', '201711')
 par(mar=c(5,4,4,2)+1)
 boxplot(sep[,c(3,4,5)],ylab="®ð·Å" ,xlab="201709", las=1)
-
 boxplot(aug[,c(3,4,5)],ylab="®ð·Å" ,xlab="201708", las=1)
 boxplot(nov[,c(3,4,5)],ylab="®ð·Å" ,xlab="201711", las=1)
 
