@@ -25,4 +25,3 @@ plot(data201009$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期" ,
      ylab="大氣壓", main="2017/07", axes=TRUE)
 plot(data201010$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期" ,
      ylab="大氣壓", main="2017/07", axes=TRUE)
-
