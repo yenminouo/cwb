@@ -18,10 +18,14 @@ aug = getweather('201708.csv', '201708')
 sep = getweather('201709.csv', '201709')
 oct = getweather('201710.csv', '201710')
 nov = getweather('201711.csv', '201711')
+dec = getweather('201712.csv', '201712')
 par(mar=c(5,4,4,2)+1)
 boxplot(sep[,c(3,4,5)],ylab="放" ,xlab="201709", las=1)
+boxplot(jul[,c(3,4,5)],ylab="放" ,xlab="201707", las=1)
 boxplot(aug[,c(3,4,5)],ylab="放" ,xlab="201708", las=1)
+boxplot(oct[,c(3,4,5)],ylab="放" ,xlab="201710", las=1)
 boxplot(nov[,c(3,4,5)],ylab="放" ,xlab="201711", las=1)
-
+boxplot(dec[,c(3,4,5)],ylab="放" ,xlab="201712", las=1)
 plot(jul$代溃,type="b", pch=16, col="black",las=1,xlab="ら戳",
      ylab="溃",main="2017/07", axes=TRUE)
+
