@@ -11,8 +11,7 @@ getweather=function(FILE,LABEL) {
           "全天空日射量","能見度","A型蒸發量")
   x=read.csv(FILE,skip=1,header=F)
   names(x) = title; y=x[,c(1,2,8,9,11,14)];
-  y['label']=LABEL; return (y) ;
-}
+  y['label']=LABEL; return (y) ;}
 jul = getweather('201707.csv', '201707')
 aug = getweather('201708.csv', '201708')
 sep = getweather('201709.csv', '201709')
