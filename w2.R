@@ -21,3 +21,4 @@ plot(data201007$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="
 plot(data201008$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2010/08", axes=TRUE)
 plot(data201009$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2010/09", axes=TRUE)
 plot(data201010$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2010/10", axes=TRUE)
+
