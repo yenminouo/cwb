@@ -17,7 +17,7 @@ data201007=x[grep("2010-07",x$測站最高氣壓時間),]
 data201008=x[grep("2010-08",x$測站最高氣壓時間),]
 data201009=x[grep("2010-09",x$測站最高氣壓時間),]
 data201010=x[grep("2010-10",x$測站最高氣壓時間),]
-plot(data201007$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2017/07", axes=TRUE)
-plot(data201008$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2017/07", axes=TRUE)
-plot(data201009$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2017/07", axes=TRUE)
-plot(data201010$測站氣壓,type="b", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2017/07", axes=TRUE)
+plot(data201007$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2010/07", axes=TRUE)
+plot(data201008$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2010/08", axes=TRUE)
+plot(data201009$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2010/09", axes=TRUE)
+plot(data201010$測站氣壓,type="o", pch=16, col="black",las=1,xlab="日期" ,ylab="大氣壓", main="2010/10", axes=TRUE)
