@@ -6,3 +6,9 @@ cards = paste(suit,number)
 sample(cards,5)
 str(cards)
 
+dicel1=sample(1:6,1)
+dicel2=sample(1:6,1)
+dicel3=sample(1:6,1)
+paste(dicel1,dicel2,dicel3)
+paste(sample(1:6,1),sample(1:6,1),sample(1:6,1))
+
